@@ -1,4 +1,7 @@
 https://unitext.jp/  
-お問い合わせフォームの内容は、メールアドレスとslackに送られます。  
-機械によるpost送信でないことをGoogleのreCAPTCHAを使って識別します。  
-reCAPTCHAの導入については、contact_process.phpとreCAPTCHA.phpファイルを参照してください。
+お問い合わせフォームの内容は、メールアドレスとslackに送られます。    
+# API  
+* slack.php  
+メッセージをslackのチャンネルに送るための関数を定義  
+* reCAPTCHA.php  
+フォーム送信が人間の手で行われたものかを判別
